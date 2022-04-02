@@ -1,5 +1,4 @@
 import dcard_logo from '../images/Dcard_logo.png'
-import bear from '../images/bear.png'
 
 function Header(props)
 {

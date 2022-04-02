@@ -32,7 +32,7 @@ class Single_Repo extends Component
     
     render()
     {
-        if (this.state.exists == true)
+        if (this.state.exists === true)
         {
             let value = this.state.data
             return (

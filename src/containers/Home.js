@@ -14,7 +14,7 @@ class Home extends Component
     {
         event.preventDefault()
         let input = document.getElementsByName("user")[0].value
-        if (input != '')
+        if (input !== '')
             window.location.pathname = "/users/"+input+"/repos"
     }
 
