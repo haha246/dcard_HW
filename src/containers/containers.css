@@ -1,0 +1,92 @@
+#headerText
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5%;
+    font-size: 48px;
+}
+
+#logo
+{
+    position: absolute;
+    right: 3%;
+    top: 3%;
+}
+
+header
+{
+    margin: auto;
+    margin-bottom: 100px;
+}
+
+table
+{
+    font-size: 16pt;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+th, td
+{
+    text-align: center;
+    padding: 5px;
+    height: 45px;
+    border: 1px solid rgb(97, 177, 214);
+}
+
+.num
+{
+    width: 10%;
+}
+
+.name
+{
+    width: 60%;
+}
+
+.FirstRow
+{
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background-color: rgb(250, 222, 225);
+    box-shadow: 0 2px 2px 0 rgb(97, 105, 214);
+}
+
+#scroll
+{
+    height: 500px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: auto;
+}
+
+#error
+{
+    text-align: center;
+}
+
+#home
+{
+    text-align: center;
+    margin-top: 250px;
+    font-size: 32pt;
+}
+
+input
+{
+    font-size: 24pt;
+    padding: 10px 30px;
+    line-height: 40px;
+    margin: 15px;
+    margin-top: 40px;
+    border-radius: 5px;
+}
+
+#enter
+{
+    cursor: pointer;
+}
