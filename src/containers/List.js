@@ -22,7 +22,6 @@ class List_display extends Component
         {
             this.scroll.addEventListener("scroll", e => {
                 const { clientHeight, scrollHeight, scrollTop } = e.target
-                console.log(scrollTop, clientHeight, scrollHeight)
                 if (Math.round(scrollTop) + clientHeight == scrollHeight)
                 {
                     this.setState({page: this.state.page+1})
